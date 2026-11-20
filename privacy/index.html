@@ -30,6 +30,7 @@
 <tbody>
 <tr><td>Usage events (photo chosen, editing tool and mode used, photo saved, ad shown or unavailable, purchase and restore results, settings opened), app version, device model, OS, country, app instance ID</td><td>Google (Firebase Analytics)</td><td>To see which features are used and improve the App</td><td>In regions that require consent (EEA, UK, Switzerland, etc.) only if you consent; elsewhere from the start. Photos are never part of these events</td></tr>
 <tr><td>App instance ID (Firebase installation ID), app version, device information</td><td>Google (Firebase Remote Config)</td><td>To receive App settings, such as which kind of ad is shown when saving</td><td>When the App starts</td></tr>
+<tr><td>On-device AI model usage statistics (feature name, processing time and counts, app package and version, library version, device and OS information)</td><td>Google (MediaPipe)</td><td>So Google can measure and improve the quality of the on-device AI library</td><td>When you use automatic detection or the retouch tools. Photos and face data are never included</td></tr>
 <tr><td>Advertising ID, IP address, device information</td><td>Google (AdMob) and AppLovin (ad mediation)</td><td>To show the banner while you edit and the ad when you save. Personalized ads only with your consent</td><td>According to your ad consent. Not shown after you buy Remove ads</td></tr>
 <tr><td>Payment information</td><td>Google Play</td><td>To process the one-time Remove ads purchase</td><td>When you buy or restore. We never receive your card details. Only the purchase status is kept on your device</td></tr>
 <tr><td>Rating request</td><td>Google Play (In-App Review)</td><td>To let you rate the App without leaving it</td><td>Once, after you save your first photo. Google decides whether it appears; we do not see your rating</td></tr>
@@ -83,6 +84,7 @@
 <tbody>
 <tr><td>사용 기록(사진 고름, 쓴 보정 도구와 모드, 사진 저장, 광고 표시·실패, 구매·복원 결과, 설정 열기), 앱 버전, 기기 모델, OS, 국가, 앱 인스턴스 ID</td><td>Google (Firebase Analytics)</td><td>어떤 기능이 쓰이는지 보고 앱을 개선하기 위해</td><td>동의가 필요한 지역(EEA, 영국, 스위스 등)에서는 동의한 경우에만, 그 밖의 지역에서는 처음부터. 사진은 이 기록에 절대 들어가지 않습니다</td></tr>
 <tr><td>앱 인스턴스 ID(Firebase 설치 ID), 앱 버전, 기기 정보</td><td>Google (Firebase Remote Config)</td><td>저장할 때 보여 줄 광고 종류 같은 앱 설정을 받기 위해</td><td>앱을 시작할 때</td></tr>
+<tr><td>기기 안 AI 모델 사용 통계(기능 이름, 처리 시간·횟수, 앱 패키지·버전, 라이브러리 버전, 기기·OS 정보)</td><td>Google (MediaPipe)</td><td>Google 이 기기 안 AI 라이브러리의 품질을 측정하고 개선하기 위해</td><td>자동 찾기나 보정 도구를 쓸 때. 사진과 얼굴 정보는 절대 들어가지 않습니다</td></tr>
 <tr><td>광고 ID, IP 주소, 기기 정보</td><td>Google (AdMob), AppLovin(광고 미디에이션)</td><td>편집 중 배너 광고와 저장할 때 광고를 보여 주기 위해. 맞춤 광고는 동의한 경우에만</td><td>광고 동의에 따라. 광고 제거를 구매하면 보이지 않습니다</td></tr>
 <tr><td>결제 정보</td><td>Google Play</td><td>광고 제거 1회 구매를 처리하기 위해</td><td>구매하거나 복원할 때. 카드 정보는 우리가 받지 않습니다. 구매 상태만 기기에 저장됩니다</td></tr>
 <tr><td>평가 요청</td><td>Google Play (인앱 리뷰)</td><td>앱을 떠나지 않고 평가할 수 있게 하기 위해</td><td>처음 사진을 저장한 뒤 한 번. 표시 여부는 Google 이 정하며 우리는 평가 내용을 볼 수 없습니다</td></tr>
